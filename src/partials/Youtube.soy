@@ -1,0 +1,16 @@
+{namespace Youtube}
+
+/**
+ * @param? videoid
+ */
+{template .render}
+    {if $videoid}
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/{$videoid}" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    {/if}
+{/template}
