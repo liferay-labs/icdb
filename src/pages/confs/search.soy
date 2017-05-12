@@ -4,7 +4,7 @@ description: "Find what you're looking for in the documentation."
 hidden: true
 ---
 
-{namespace pageDocsSearch}
+{namespace pageConfsSearch}
 
 /**
  * @param site
@@ -21,16 +21,16 @@ hidden: true
 				<div class="container-hybrid docs-home-top">
 					<div class="row">
 						<div class="col-xs-16">
-							<h1 class="docs-home-top-title"><span>Electric</span> Docs</h1>
-							<p class="docs-home-top-description">Start learning how to leverage the power of {$site.title}.</p>
+							<h1 class="docs-home-top-title"><span>Search</span> Talks</h1>
+							<p class="docs-home-top-description">Explore, comment and share your favourite tech talks and conferences.</p>
 						</div>
 					</div>
 					<div class="row">
 						<div class="container-hybrid">
 							{call ElectricSearch.render}
-								{param action: '/docs/search.html' /}
-								{param path: '/docs/' /}
-								{param placeholder: 'Search Docs' /}
+								{param action: '/confs/search.html' /}
+								{param path: '/confs/' /}
+								{param placeholder: 'Search Talks' /}
 							{/call}
 						</div>
 					</div>
