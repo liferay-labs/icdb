@@ -1,4 +1,4 @@
-$accent: #4285F4;
+$accent: #E4B921;
 
 @import "marble";
 
@@ -14,11 +14,8 @@ $accent: #4285F4;
 // Search
 @import "templates/search";
 
-// Updates
-@import "templates/updates";
+// Youtube embed
+@import "youtube";
 
-// Blog
-@import "templates/blog";
-
-// Tutorial
-@import "templates/tutorial";
+// Overrides
+@import "overrides";

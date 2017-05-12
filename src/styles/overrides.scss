@@ -1,0 +1,6 @@
+// Wrap talk titles on the sidebar to a single line
+.sidebar-link span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

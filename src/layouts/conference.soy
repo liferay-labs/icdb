@@ -1,4 +1,4 @@
-{namespace guide}
+{namespace conference}
 
 /**
  * @param page
@@ -14,7 +14,7 @@
 				{call Sidebar.render}
 					{param section: $site.index.children['confs'] /}
 				{/call}
-				{call .guide data="all" /}
+				{call .conference data="all" /}
 			</div>
 		</main>
 	</div>
@@ -25,42 +25,30 @@
  * @param site
  * @param content
  */
-{template .guide}
+{template .conference}
 	<div class="sidebar-offset">
 
-		<header class="guide-header">
+		<header class="guide-header" style="background: linear-gradient(rgba(250, 250, 251, 1), rgba(228, 185, 33, 0.4)), url('../../images/{$page.logo}'); background-size: cover;">
 			<div class="container-hybrid">
 				<h1 class="title">{$page.title}</h1>
-				<small class="description">{$page.description}</small>
-
-				<h2>{$page.speaker} | <a href="https://twitter.com/{$page.twitter}">@{$page.twitter}</a></h2>
 			</div>
 		</header>
 
-		{call Youtube.render}
-			{param videoid: $page.videoid /}
-		{/call}
-
 		<div class="container-hybrid">
 			<div class="docs-guide row">
-				<div class="docs-content col-xs-16 col-md-9">
+				<div class="docs-content col-xs-16 col-md-16">
 					<div class="guide-content">
 						{$content}
 					</div>
 
+                    {call Youtube.render}
+                        {param playlist: $page.playlist /}
+                    {/call}
+                    
 					{if $site.githubRepo}
 						{call .contribute data="all" /}
 					{/if}
 				</div>
-
-				<nav class="col-xs-16 col-md-offset-2 col-md-5">
-					<div class="docs-nav-container">
-						{call ElectricReadingProgress.render}
-							{param elementClasses: 'docs-nav' /}
-							{param offsetTop: 200 /}
-						{/call}
-					</div>
-				</nav>
 			</div>
 		</div>
 	</div>
@@ -76,7 +64,7 @@
 			<span class="icon-16-github"></span>
 		</div>
 		<div class="contribute-text">
-			<p>Contribute on Github! <a href="https://github.com/{$site.githubRepo}/tree/master/{$page.srcFilePath}" class="contribute-link" target="_blank">Edit this section</a>.</p>
+			<p>Contribute on Github! <a href="https://github.com/{$site.githubRepo}/tree/master/{$page.srcFilePath}" class="contribute-link" target="_blank">Edit this conference</a>.</p>
 		</div>
 	</div>
 {/template}

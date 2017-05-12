@@ -5,14 +5,11 @@ description: "Building user interfaces on the web is hard, because the web, and 
 The rise of JavaScript frameworks like React, Ember and recently Angular 2, the effort of the W3C to standardize a web-native component system, pattern libraries and styleguides being considered 'the right way to build web applications' and many other things have illuminated this revolution – we are now in the 'Component Age'.
 
 With that and a few more things in mind, Max along with Glen Maddern (co-creator of css-modules) sat down and started thinking about styling in this new era. They took the best of CSS and the Web to build a new way to style component-based systems. In this talk, Max will describe what they thought about and why they arrived where they did – <💅> styled-components."
-
 speaker: Glen Maddern
 twitter: glenmaddern
-
 videoid:
 tags: [css-in-js]
-
-layout: "guide"
+layout: "talk"
 weight: 2
 ---
 

@@ -1,16 +1,31 @@
 {namespace Youtube}
 
 /**
- * @param? videoid
+ * @param? playlist
+ * @param? video
  */
 {template .render}
-    {if $videoid}
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/{$videoid}" 
-            frameborder="0" 
-            allowfullscreen>
-        </iframe>
+    {if $playlist or $video}
+        <div class="container container-youtube">
+            {if $playlist}
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/videoseries?list={$playlist}" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            {/if}
+
+            {if $video}
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/{$video}" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            {/if}
+        </div>
     {/if}
 {/template}

@@ -1,20 +1,17 @@
 ---
 title: "Get Ready for the Future of CSS!"
 description: "It’s time to start thinking about new and upcoming CSS features that will boost your workflow and give you more power and flexibility when building your projects. This talk covers the latest CSS features, including: color manipulation, custom properties, selectors level 4, and what's new in media queries. We’ll also have a look at in-browser design features like blend modes and clip-path."
-
 speaker: Guil Hernandez
 twitter: guilh
-
 videoid:
 tags: []
-
-layout: "guide"
+layout: "talk"
 weight: 2
 ---
 
 <article id="1">
 
-## Notes
+##### Notes
 
 **CSS Variables (custom properties)**
 References to values you can reuse
@@ -60,19 +57,20 @@ _@supports_ (feature queries)
 
 <article id="2">
 
-## Opinion
+##### Opinion
 
-Interesting theming take on css variables without having to be dom-aware
-Very nice summary of upcoming css features
+Interesting theming take on css variables without having to be dom-aware. Very nice summary of upcoming css features
 
 </article>
 
 <article id="3">
 
-## Related Links
+##### Related Links
 
-css shapes editor chrome extension
-clippy
-css4-selectors
+Related Links | Rating
+--- | ---
+[CSS Shapes Editor](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp) | ★★★☆☆
+[Clippy](http://bennettfeely.com/clippy/) | ★★★☆☆
+[Selectors Level 4](https://www.w3.org/TR/selectors4/) | ★★★☆☆
 
 </article>
