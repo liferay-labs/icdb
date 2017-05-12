@@ -1,10 +1,10 @@
 ---
-title: "Where does CSS come from?"
-description: "Understanding how CSS is developed is more than an academic exercise. It gives you a way of understanding why things are weird, which is a good starting point to avoiding or fixing weirdness. It can give you an early heads up as to what might be happening in the very near future. It also opens up an opportunity to be part of the process, to contribute to CSS - just like any open source project. Then once we have new CSS on the horizon, we can all be part of encouraging browser vendors to ship it!"
-speaker: Rachel Andrew
-twitter: rachelandrew
+title: "The Browser Hackers Guide To Instantly Loading Everything"
+description: "Venture deep into the belly of the browser to uncover the secret incantations to instantly load anything. We’ll even back it up with rock-hard data. Will we use preload, prefetch and preconnect? What about HTTP/2 Server Push? or Service Worker? and how the heck do we ship JavaScript bundles that don’t break the bank on mobile? Discover this and more tips to delight your users in the Browser Hacker’s guide to instantly loading EVERYTHING."
+speaker: Addy Osmani
+twitter: 
 video:
-tags: [js, web, performance]
+tags: [js]
 layout: "talk"
 weight: 2
 ---
@@ -19,8 +19,6 @@ weight: 2
 
 ##### Opinion
 
-
-
 </article>
 
 <article id="3">
@@ -29,6 +27,6 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[CSS WG Editor Drafts](https://github.com/w3c/csswg-drafts) | ★★★☆☆
+[foo](https://foo) | ★★★☆☆
 
 </article>
