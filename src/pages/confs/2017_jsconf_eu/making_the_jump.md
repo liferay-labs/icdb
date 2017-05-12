@@ -12,12 +12,29 @@ weight: 2
 <article id="1">
 
 ##### Notes
+- How can things made for the desktop make the jump to the phones
+- There are more differences than the obvious ones... how focused is the user?
+- For many people, the first computer is a phone. The more global your app is, the more varied ecosystem you need to support
+- Its easy to optimize for one combination at the cost of other
+- Progressive Enhancement is the usual answer
+- Browsers improve radically which doesnt seem to translate into applications
+
+**The simplicity fetish**
+- simple = small = fast = good
+- complex = big = slow = bad
+
+> Modern frameworks are compilers  
+
+`Static Analysis vs Dynamic analysis`
+`Render vs Re-render`
 
 </article>
 
 <article id="2">
 
 ##### Opinion
+
+Talk what the big players are doing with their frameworks, turning them into compilers
 
 </article>
 
@@ -27,6 +44,7 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[foo](https://foo) | ★★★☆☆
+[Tsickle](https://github.com/angular/tsickle) | ★★★☆☆
+[glimmer](https://glimmerjs.com/) | ★★★☆☆
 
 </article>

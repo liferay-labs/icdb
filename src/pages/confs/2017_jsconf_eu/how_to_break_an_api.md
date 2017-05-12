@@ -13,11 +13,60 @@ weight: 2
 
 ##### Notes
 
+**Culture matters**
+- Different Values
+- Different Trade-Offs
+- Different cost allocations
+- Different challenges
+
+**Two extremes**
+- Cost on the users, easy to break things from the maintainers
+- Cost on the maintainers, not allowed to break things
+
+###### Eclipse community
+
+Backwards compatibility
+
+**Characteristics**
+- Stable platform, convenient to use
+- Yearly updates are sufficient to many
+
+**Consequences**
+- Perceived stagnant development, stale platform
+- Difficulty recruiting releases
+- Painful using
+
+###### R community
+
+The most recent version of all packages shall be compatible (snapshot consistency)
+
+**Characteristics**
+- Short release cycles, compatibility
+
+**Consequences**
+- Urgency and reacting to updates as burden
+- Aggressive reduction of dependencies (code cloning)
+- High gatekeeping creates friction
+
+###### node community
+
+Open to rapid change and experiments. Low barrier to entry. Easy and fast for developers to publish and use packages
+
+**Characteristics**
+- Openness, attractive to devs
+
+**Consequences**
+- Unstable, no quality control
+- Rapid change requires constant maintenance
+
 </article>
 
 <article id="2">
 
 ##### Opinion
+
+- Show of the results of an academic research.
+- How to do something depends on the community values
 
 </article>
 
@@ -27,6 +76,6 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[foo](https://foo) | ★★★☆☆
+[breakingapis](http://breakingapis.org/) | ★★★☆☆
 
 </article>

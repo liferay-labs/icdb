@@ -13,11 +13,28 @@ weight: 2
 
 ##### Notes
 
+1995 Netscape 2.0 was released. At the time it was mostly used for form validation, since server trips were expensive
+
+**Goal**
+- Implement TodoMVC in Netscape 2.0
+
+**Challenges**
+- The src attribute was not supported
+- There was no dom api, you couldn't change it without reloading
+- Error handling
+- No console
+- There were no arrays in JS 1.0
+- Only global functions
+- No addeventlistener and limited event handlers
+- Styling was very limited
+
 </article>
 
 <article id="2">
 
 ##### Opinion
+
+A retrospective to show how much the web has evolve an appreciate it
 
 </article>
 
@@ -27,6 +44,5 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[foo](https://foo) | ★★★☆☆
 
 </article>

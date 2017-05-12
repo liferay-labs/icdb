@@ -13,11 +13,37 @@ weight: 2
 
 ##### Notes
 
+Steps taken in AMP
+
+**Unblock the render**
+- Scripts are async (do not block the render)
+- Inline CSS (limit CSS to 50kb)
+- 3rd party JS only in sandbox iframes
+- Resource priorization
+	- Preconnect (videos to sources)
+
+**Don't be flashy**
+- Invisibility trick to avoid fouc
+
+**Stop shifting**
+- Static resource sizing
+- Minimize style recalculations batching reads and writes
+	- max of 1 style recalc per frame
+	- 2 style recalcs per page load
+- GPU optimizable animations only
+
+**Optimize**
+- Cache
+- Efficient prerendering
+- Code optimizations with closure compiler and amp optimizations on top
+
 </article>
 
 <article id="2">
 
 ##### Opinion
+
+Step by step guide into what needs to be done to comply with AMP
 
 </article>
 
@@ -27,6 +53,6 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[foo](https://foo) | ★★★☆☆
+[AMP](https://www.ampproject.org/) | ★★★☆☆
 
 </article>

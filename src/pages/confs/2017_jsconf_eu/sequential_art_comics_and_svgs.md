@@ -13,11 +13,21 @@ weight: 2
 
 ##### Notes
 
+One image is just an image, but juxtaposed to another one, it conveys a complete different meaning -> comic
+
+Print Comics -> Post Print Comics
+
+**Parallax adds depth and physicality**
+- Use `perspective` css property
+- Support of css transforms and svgs is sketchy
+
 </article>
 
 <article id="2">
 
 ##### Opinion
+
+Talk about how to use svgs to create interactive comics
 
 </article>
 
@@ -27,6 +37,6 @@ weight: 2
 
 Related Links | Rating
 --- | ---
-[foo](https://foo) | ★★★☆☆
+[Bustle](https://www.bustle.com/comics) | ★★★☆☆
 
 </article>
