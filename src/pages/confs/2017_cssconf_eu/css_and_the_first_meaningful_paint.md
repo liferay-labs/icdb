@@ -8,7 +8,7 @@ In this talk we will take a journey exploring the current, past, and future best
 speaker: Patrick Hamann
 twitter: patrickhamann
 video:
-tags: [performance]
+tags: [css, performance]
 layout: "talk"
 weight: 2
 ---

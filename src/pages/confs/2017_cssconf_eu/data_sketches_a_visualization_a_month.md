@@ -1,12 +1,12 @@
 ---
-title: "data sketch|es: A Visualization a Month"
+title: "Data sketch|es: A Visualization a Month"
 description: "Data sketches is a collaboration between Nadieh and Shirley, where they choose a topic and visualize it by the end of the month. The collaboration started for many reasons: they weren’t creating as many personal data visualization projects, so they were looking for the motivation to make more. They wanted to explore their creativity, to experiment with the tools that are out there, to learn from each other, and to have fun.
 
 In this talk, Shirley and Nadieh will share the lessons they learned while working on data sketches. They will highlight their favorite months of data, sketches, and code: what made them their favorites, the mistakes made along the way, and how they overcame them. They hope that by sharing their visualizations’ humble, ugly duckling beginnings and their many (embarrassing) iterations, that it will inspire others to create their own unique and compelling visualizations."
 speaker: Nadieh Bremer & Shirley Wu
 twitter: sxywu
 video:
-tags: [data-visualization]
+tags: [css, data-visualization]
 layout: "talk"
 weight: 2
 ---
@@ -48,6 +48,6 @@ Nice talk about a beautiful data-viz project
 
 Related Links | Rating
 --- | ---
-[darasketch|es](http://www.datasketch.es/) | ★★★☆☆
+[datasketch.es](http://www.datasketch.es/) | ★★★☆☆
 
 </article>

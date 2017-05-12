@@ -7,43 +7,43 @@ The rise of JavaScript frameworks like React, Ember and recently Angular 2, the 
 With that and a few more things in mind, Max along with Glen Maddern (co-creator of css-modules) sat down and started thinking about styling in this new era. They took the best of CSS and the Web to build a new way to style component-based systems. In this talk, Max will describe what they thought about and why they arrived where they did – <💅> styled-components."
 speaker: Glen Maddern
 twitter: glenmaddern
-videoid:
-tags: [css-in-js]
+video:
+tags: [css, css-in-js]
 layout: "talk"
 weight: 2
 ---
 
 <article id="1">
 
-## Notes
+##### Notes
 
-CSS-in-JS is worth your time
-
-Separation of concerns is about encapsulation and not trchnologies
-Hide implementation details and make it more semantic
+- CSS-in-JS is worth your time
+- Separation of concerns is about encapsulation and not technologies
+- Hide implementation details and make it more semantic
 
 > What if it's worse than just CSS?  
 
-styled-components (CSS-in-JS for CSS folks / Component-centric styling)
-
-Encapsulate the relationship between styles and components
-
-Builtin theming is really nice
+**Styled Components**
+- CSS-in-JS for CSS folks / Component-centric styling
+- Encapsulate the relationship between styles and components
+- Builtin theming is really nice
 
 </article>
 
 <article id="2">
 
-## Opinion
+##### Opinion
 
-Improvised talk in 24h because the original speaker cancelled
+Improvised talk in 24h with good thoughts about where CSS-in-JS fits
 
 </article>
 
 <article id="3">
 
-## Related Links
+##### Related Links
 
-styled-components
+Related Links | Rating
+--- | ---
+[Styled Component.](https://styled-components.com/) | ★★★☆☆
 
 </article>

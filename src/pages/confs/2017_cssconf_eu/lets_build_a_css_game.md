@@ -4,20 +4,20 @@ description: "Let’s live code a game together using just CSS and HTML! This ta
 speaker: Una Kravets
 twitter: una
 video:
-tags: []
+tags: [css, live]
 layout: "talk"
 weight: 2
 ---
 
 <article id="1">
 
-## Notes
+##### Notes
 
 </article>
 
 <article id="2">
 
-## Opinion
+##### Opinion
 
 Fun live coding session, specially interesting the css pixelart technique
 
@@ -25,6 +25,9 @@ Fun live coding session, specially interesting the css pixelart technique
 
 <article id="3">
 
-## Related Links
+##### Related Links
+
+Related Links | Rating
+--- | ---
 
 </article>

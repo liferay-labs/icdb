@@ -4,7 +4,7 @@ description: "This talk is about hierarchies: as CSS hurtles toward being object
 speaker: Ivana McConnell
 twitter: ivanamcconnell
 video:
-tags: [community]
+tags: [css, community]
 layout: "talk"
 weight: 2
 ---

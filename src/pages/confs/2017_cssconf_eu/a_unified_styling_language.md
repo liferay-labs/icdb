@@ -5,7 +5,7 @@ In this talk, we’ll take an empathetic look at these new approaches, how they 
 speaker: Mark Dalgleish
 twitter: markdalgleish
 video:
-tags: [css-in-js]
+tags: [css, css-in-js]
 layout: "talk"
 weight: 2
 ---

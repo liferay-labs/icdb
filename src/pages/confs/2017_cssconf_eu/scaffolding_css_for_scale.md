@@ -6,70 +6,69 @@ In this talk, you'll learn how to get started with your own lightweight, localis
 speaker: Sareh Heidari
 twitter: sareh88
 videoid:
-tags: []
+tags: [css, frameworks]
 layout: "talk"
 weight: 2
 ---
 
 <article id="1">
 
-## Notes
+##### Notes
 
-BBC News:
-* Lots of users
-* Lots of pages
-* Easyc to reuse
-* Localisable
-* Lightweight
+**BBC News**
+- Lots of users
+- Lots of pages
+- Easyc to reuse
+- Localisable
+- Lightweight
 
 **Grandstand**
-Dont want components with repeated CSS
-Namespace all the things (BEML)
+- Dont want components with repeated CSS
+- Namespace all the things (BEML)
 
-* Objects (gs-o-*)
-	* 11 different ones (bullet pattern, ...)
-* Utilities (gs-u-*)
-	* Standardize things (margins, paddings, display, float,...)
-* Sass Tools
-	* Reusable colour variables and mixins
-* GEL Typography
-* GEL Grid
-* GEL Iconography
+###### Components
+- Objects (gs-o-*) -> 11 different ones (bullet pattern, ...)
+- Utilities (gs-u-*) -> Standardize things (margins, paddings, display, float,...)
+- Sass Tools -> Reusable colour variables and mixins
+- GEL Typography
+- GEL Grid
+- GEL Iconography
 
-**Localisation**
-* Content
-* Typography
-	* Same one doesn't really work with different scripts. Kerning, line heights, font sizes...
-* Layouts
-	* Function flip() for values
-	* @if $rtl for properties -> {lb} # prop {rb} syntax tool
+###### Localization
+- Content
+- Typography
+	- Same one doesn't really work with different scripts. Kerning, line heights, font sizes...
+- Layouts
+	- Function flip() for values
+	- @if $rtl for properties -> {lb} # prop {rb} syntax tool
 
-**How to build your own**
-* Choose things
-	* Standard spacing unit
-	* Breakpoints and typography suited to your content
-	* Colour Palette
-* Keep it lightweight
-	* Choose patterns carefully
-	* Do you **really** need that variation
-	* **Communicate** with others!
+###### How to build your own
+- Choose things
+	- Standard spacing unit
+	- Breakpoints and typography suited to your content
+	- Colour Palette
+- Keep it lightweight
+	- Choose patterns carefully
+	- Do you **really** need that variation
+	- **Communicate** with others!
 
 </article>
 
 <article id="2">
 
-## Opinion
+##### Opinion
 
-Talk focused on a particular and not really inspiring CSS framework.
-
-Important to check GEL, BBC experience language at least, as a shared trend.
+Talk focused on a particular CSS framework, close to what we built with LexiconCSS. Important to check GEL, BBC experience language at least, as a shared trend.
 
 </article>
 
 <article id="3">
 
-## Related Links
+##### Related Links
 
-[Grandstand](http://bbc.github.io/grandstand/)
+Related Links | Rating
+--- | ---
+[Grandstand](http://bbc.github.io/grandstand/) | ★★★☆☆
+[GEL](http://www.bbc.co.uk/gel) | ★★★☆☆
 
 </article>
