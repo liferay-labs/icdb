@@ -5,7 +5,7 @@ layout: "conference"
 logo: "jsconfeu.png"
 icon: "heart-full"
 weight: 1
-playlist: PL37ZVnwpeshH37NxpV6XbgdDpY-w48hMd
+playlist: PL37ZVnwpeshFmAPr65sU2O5WMs7_CGjs_
 ---
 
 ###### {$page.description}
