@@ -3,7 +3,7 @@ title: "JavaScript engines how do they even?"
 description: "Want to know how JavaScript engines work? Why is JavaScript so fast? What is just-in-time compilation? We’ll look at basic concepts of compilers, challenges posed by modern JavaScript, and how to write compiler-friendly JavaScript."
 speaker: Franziska Hinkelmann
 twitter: fhinkel
-video:
+video: iiEDtpy6I
 tags: [js, v8, engines]
 layout: "talk"
 weight: 2

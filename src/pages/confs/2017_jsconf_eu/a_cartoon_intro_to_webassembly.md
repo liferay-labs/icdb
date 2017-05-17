@@ -3,7 +3,7 @@ title: "A Cartoon Intro to WebAssembly"
 description: "WebAssembly is fast. It’s being called “the future of the web”. It’s speed and potential have major browser vendors working together to make it a reality. And it’s on it’s way—the MVP hit multiple browsers in October of last year. But what makes it fast? Starting from the basics, this talk will walk you through what WebAssembly is, and then why it’s fast."
 speaker: Lin Clark
 twitter: linkclark
-video:
+video: HktWin_LPf4
 tags: [js, performance, webassembly]
 layout: "talk"
 weight: 2
