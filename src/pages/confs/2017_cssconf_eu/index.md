@@ -5,7 +5,7 @@ layout: "conference"
 logo: "cssconfeu.png"
 icon: "pen"
 weight: 1
-playlist: PLlgxAbM67lYJRnZlE8nLsQAXxa4pGXO3I
+playlist: PL37ZVnwpeshF0XmpjKBJ3-0kvr3b5ZpJR
 ---
 
 ###### {$page.description}
