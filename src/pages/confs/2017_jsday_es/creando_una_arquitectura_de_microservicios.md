@@ -1,8 +1,6 @@
 ---
 title: "Creando una arquitectura de microservicios en node.js y Kubernetes"
-description: "Existe un creciente interés en la industria por el desarrollo de arquitecturas de microservicios, gracias a las muchas ventajas que ofrecen. Sin embargo, este nuevo paradigma supone un cambio de mentalidad a la hora de organizar nuestras aplicaciones y conlleva más trabajo de operaciones, creando así una barrera de entrada mayor frente a sistemas monolíticos.
-
-Hablaremos de nuestra experiencia en seedtag migrando a una arquitectura de microservicios en Node.js y de los retos que aparecen a la hora de implementar un sistema que debe atender miles de peticiones por segundo. Repasaremos las técnicas y herramientas a nuestra disposición para crear una sistema ágil, mantenible y escalable utilizando Kubernetes como base."
+description: "Existe un creciente interés en la industria por el desarrollo de arquitecturas de microservicios, gracias a las muchas ventajas que ofrecen. Sin embargo, este nuevo paradigma supone un cambio de mentalidad a la hora de organizar nuestras aplicaciones y conlleva más trabajo de operaciones, creando así una barrera de entrada mayor frente a sistemas monolíticos. Hablaremos de nuestra experiencia en seedtag migrando a una arquitectura de microservicios en Node.js y de los retos que aparecen a la hora de implementar un sistema que debe atender miles de peticiones por segundo. Repasaremos las técnicas y herramientas a nuestra disposición para crear una sistema ágil, mantenible y escalable utilizando Kubernetes como base."
 speaker: Paul Goldbaum
 twitter: paulgoldbaum
 video:

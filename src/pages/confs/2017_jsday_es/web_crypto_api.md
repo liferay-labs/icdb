@@ -1,8 +1,6 @@
 ---
 title: "Un paso más en seguridad FrontEnd con Web Crypto API"
-description: "La seguridad FrontEnd siempre ha sido un tema bastante olvidado en los desarrollos, dejandose muchas veces esta parte exclusivamente para el backend. Al ser el front la parte más accesible y a la vez vulnerable, los desarrolladores debemos tomar medidas, pues una fuerte seguridad puede filtrar en gran medida el número de ataques que llegan a back, así como detener otros casi por completo.
-
-El objetivo de esta charla es presentar y analizar la Web Cryptography API que ya está implementada en algunos navegadores, ofreciendo soporte para algoritmos básicos de encriptación, así como firmado con mecanismos de claves públicas y privadas. Además de ayudar a los desarrolladores a asegurar la identidad de los usuarios en operaciones sensibles, puede ser utilizado para cantidad de acciones, como la comprobación de que los recursos enviados desde back son exactamente los mismos que recibimos en front."
+description: "La seguridad FrontEnd siempre ha sido un tema bastante olvidado en los desarrollos, dejandose muchas veces esta parte exclusivamente para el backend. Al ser el front la parte más accesible y a la vez vulnerable, los desarrolladores debemos tomar medidas, pues una fuerte seguridad puede filtrar en gran medida el número de ataques que llegan a back, así como detener otros casi por completo. El objetivo de esta charla es presentar y analizar la Web Cryptography API que ya está implementada en algunos navegadores, ofreciendo soporte para algoritmos básicos de encriptación, así como firmado con mecanismos de claves públicas y privadas. Además de ayudar a los desarrolladores a asegurar la identidad de los usuarios en operaciones sensibles, puede ser utilizado para cantidad de acciones, como la comprobación de que los recursos enviados desde back son exactamente los mismos que recibimos en front."
 speaker: Jon Rojí
 twitter:
 video:

@@ -1,8 +1,6 @@
 ---
 title: "Unveiling WebAssembly: what, why, how"
-description: "This year the browser vendors are placing a significant effort into developing WebAssembly. The aim of this talk is to answer whether it's relevant to your use case and how to use it to improve the performance of your application.
-
-We will see what WebAssembly brings in comparison to existing technologies. We will write some C++ code and run it in browser. We will take a look at exposing functions and classes written in C++ to parts of application that are written in JavaScript. We will discuss using WebAssembly to optimize parts of application written in JavaScript. We will use some C++ libraries to do cool stuff in a browser. Finally I will invite you to explore WebAssembly yourself and show us what you came up with."
+description: "This year the browser vendors are placing a significant effort into developing WebAssembly. The aim of this talk is to answer whether it's relevant to your use case and how to use it to improve the performance of your application. We will see what WebAssembly brings in comparison to existing technologies. We will write some C++ code and run it in browser. We will take a look at exposing functions and classes written in C++ to parts of application that are written in JavaScript. We will discuss using WebAssembly to optimize parts of application written in JavaScript. We will use some C++ libraries to do cool stuff in a browser. Finally I will invite you to explore WebAssembly yourself and show us what you came up with."
 speaker: Matjaz Drolc
 twitter: MatjazDrolc
 video:

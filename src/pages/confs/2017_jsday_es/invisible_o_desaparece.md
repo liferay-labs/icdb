@@ -1,8 +1,6 @@
 ---
 title: "Invisible o desaparece"
-description: "El futuro es la computación ubicua, que es la integración de la informática en el entorno de la persona, de forma que los ordenadores no se perciban como objetos diferenciados. La idea es interactuar de manera natural con sus dispositivos y realizar cualquier tarea de manera completamente transparente, un paso más allá en el paradigma del uso de los ordenadores de sobremesa. La revolución invisible está aquí y tenemos que estar preparados.
-
-La "inteligencia ambiental" que tan estrechamente ligada está al IoT se asocia erróneamente a C/C++, Java, Python y otros lenguajes, sin embargo hay un sinfín de dispositivos que permiten ser programados con JavaScript. En esta charla veremos la cantidad de dispositivos del mercado que pueden ser programados en JavaScript, y con esto como base, haremos una demo completa de cómo comunicar con todo tipo de artilugios que tengamos en casa."
+description: "El futuro es la computación ubicua, que es la integración de la informática en el entorno de la persona, de forma que los ordenadores no se perciban como objetos diferenciados. La idea es interactuar de manera natural con sus dispositivos y realizar cualquier tarea de manera completamente transparente, un paso más allá en el paradigma del uso de los ordenadores de sobremesa. La revolución invisible está aquí y tenemos que estar preparados. La 'inteligencia ambiental' que tan estrechamente ligada está al IoT se asocia erróneamente a C/C++, Java, Python y otros lenguajes, sin embargo hay un sinfín de dispositivos que permiten ser programados con JavaScript. En esta charla veremos la cantidad de dispositivos del mercado que pueden ser programados en JavaScript, y con esto como base, haremos una demo completa de cómo comunicar con todo tipo de artilugios que tengamos en casa."
 speaker: Juliet Moreiro Bockhop
 twitter: julietsvq
 video:

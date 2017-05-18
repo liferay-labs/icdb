@@ -1,10 +1,6 @@
 ---
 title: "ES7 & ES8 vs V8"
-description: "Una revisión en profundidad de las características del último estándar de nuestro lenguaje favorito ES2016 (ES7) y de las ya incluidas en ES2017 (ES8, que saldrá a finales de Abril), incluidas las Funciones Asíncronas (que nos permiten gestionar la asincronía con mayor elegancia), los Array Buffers Compartidos y el objeto Atomics (los bloques de bajo nivel sobre los que construir abstracciones de concurrencia) y algunas características menores como nuevas propiedades de los prototipos de Object y String.
-
-Revisaremos cómo funciona el Comité TC39, cómo genera las releases anuales de la especificación ECMA-262 y cómo éstas se integran en el motor de alto rendimiento de V8.
-
-Un viaje a las entrañas del presente y el futuro de JavaScript."
+description: "Una revisión en profundidad de las características del último estándar de nuestro lenguaje favorito ES2016 (ES7) y de las ya incluidas en ES2017 (ES8, que saldrá a finales de Abril), incluidas las Funciones Asíncronas (que nos permiten gestionar la asincronía con mayor elegancia), los Array Buffers Compartidos y el objeto Atomics (los bloques de bajo nivel sobre los que construir abstracciones de concurrencia) y algunas características menores como nuevas propiedades de los prototipos de Object y String. Revisaremos cómo funciona el Comité TC39, cómo genera las releases anuales de la especificación ECMA-262 y cómo éstas se integran en el motor de alto rendimiento de V8. Un viaje a las entrañas del presente y el futuro de JavaScript."
 speaker: Rafael Casuso Romate
 twitter: Rafael_Casuso
 video:
