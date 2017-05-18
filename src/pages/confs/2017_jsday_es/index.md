@@ -5,7 +5,7 @@ layout: "conference"
 logo: "jsdayes.png"
 icon: "table"
 weight: 1
-playlist: PL37ZVnwpeshH37NxpV6XbgdDpY-w48hMd
+playlist: UClqqpvRAqxpLT27rj7vKfOA
 ---
 
 ###### {$page.description}
