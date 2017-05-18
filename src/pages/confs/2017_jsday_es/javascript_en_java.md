@@ -1,8 +1,6 @@
 ---
 title: "JavaScript en Java: diversas formas de ejecutar JavaScript desde la JVM"
-description: "Hace años, ejecutar JavaScript desde Java podía ser un capricho o una necesidad anecdótica. Pero hoy en día, con más y más proyectos nada triviales en JavaScript que no tienen una alternativa Java, es importante conocer qué posibilidades tenemos para ejecutar JavaScript desde Java y las ventajas e inconvenientes de cada una. Tras un pequeño repaso de las soluciones tradionales como Rhino, veremos con algo más de detalle Nashorn, GraalVM y sobre todo J2V8.
-
-Se podría dudar si esta charla no es más adecuada para una conferencia de Java. Pero el propósito, que es tener más plataformas donde poder ejecutar JavaScript, supongo que será mejor recibido en una conferencia sobre JavaScript. Además, en tecnologías como GraalVM y J2V8, Java pasa a ser un actor secundario."
+description: "Hace años, ejecutar JavaScript desde Java podía ser un capricho o una necesidad anecdótica. Pero hoy en día, con más y más proyectos nada triviales en JavaScript que no tienen una alternativa Java, es importante conocer qué posibilidades tenemos para ejecutar JavaScript desde Java y las ventajas e inconvenientes de cada una. Tras un pequeño repaso de las soluciones tradionales como Rhino, veremos con algo más de detalle Nashorn, GraalVM y sobre todo J2V8. Se podría dudar si esta charla no es más adecuada para una conferencia de Java. Pero el propósito, que es tener más plataformas donde poder ejecutar JavaScript, supongo que será mejor recibido en una conferencia sobre JavaScript. Además, en tecnologías como GraalVM y J2V8, Java pasa a ser un actor secundario."
 speaker: Pedro Palao
 twitter:
 video:

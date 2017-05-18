@@ -1,10 +1,6 @@
 ---
 title: "¿Una plataforma de IoT sólo con JS? Es posible... y además, ¡barato!"
-description: "Hoy en día ya se está hablando mucho de Internet of Things, plataformas IoT y derivados, pero... ¿te has planteado alguna vez montar la tuya propia? ¿Crees que está fuera de tu alcance? Vente para ver cómo se puede elaborar con muy poco una plataforma IoT, donde capturaremos datos con sensores de luz, de temperatura o incluso la presencia de gas. ¿Y para desarrollar? ¡Suficiente con JavaScript!
-
-Conoceremos también otros frameworks JS para interactuar con elementos hardware, a NodeJS como actor principal y veremos cómo poder darle la capacidad de controlar, por ejemplo, las luces de casa.
-
-Vamos a montar algo chulo, y si el efecto demo lo permite, haremos uno de los ejemplos en directo con todos los asistentes, ¡no te lo pierdas!"
+description: "Hoy en día ya se está hablando mucho de Internet of Things, plataformas IoT y derivados, pero... ¿te has planteado alguna vez montar la tuya propia? ¿Crees que está fuera de tu alcance? Vente para ver cómo se puede elaborar con muy poco una plataforma IoT, donde capturaremos datos con sensores de luz, de temperatura o incluso la presencia de gas. ¿Y para desarrollar? ¡Suficiente con JavaScript! Conoceremos también otros frameworks JS para interactuar con elementos hardware, a NodeJS como actor principal y veremos cómo poder darle la capacidad de controlar, por ejemplo, las luces de casa. Vamos a montar algo chulo, y si el efecto demo lo permite, haremos uno de los ejemplos en directo con todos los asistentes, ¡no te lo pierdas!"
 speaker: José Manuel García García (Sema)
 twitter: semagarcia
 video:
