@@ -49,5 +49,6 @@ Overview of NASAs code guidelines and how it can be applied to JS development to
 
 Related Links | Rating
 --- | ---
+[ESLint Pureness plugin](https://github.com/rom-melnyk/eslint-plugin-pureness) | ★★★☆☆
 
 </article>

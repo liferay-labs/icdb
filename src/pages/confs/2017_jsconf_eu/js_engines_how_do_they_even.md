@@ -14,7 +14,7 @@ weight: 2
 ##### Notes
 
 - Many js engines nowadays that help competition and improvement
-- Even thiugh being dynamically typed makes it harder to optimize, js is really fast -> JIT (generate machine code during runtime, not ahead of time)
+- Even though being dynamically typed makes it harder to optimize, js is really fast -> JIT (generate machine code during runtime, not ahead of time)
 
 **Optimizing Compiler**
 - _Re-compile_ hot functions with type information from previous executions

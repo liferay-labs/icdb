@@ -20,6 +20,8 @@ weight: 2
 - Real-time graph and timeline modifications
 - Mobile support
 - Integrates with A-Frame
+- Uses WebGL and GLSL shaders for fast image processing
+- Allows using custom GLSL shaders to write personalized effects
 
 **Reading video.currentTime is not frame accurate**
 Use `requestAnimationFrame`
@@ -43,6 +45,8 @@ Use `requestAnimationFrame`
 ##### Opinion
 
 Cool presentation of BBCs work on video on the web
+
+Interesting to see the use of WebGL outside the game development world
 
 </article>
 
