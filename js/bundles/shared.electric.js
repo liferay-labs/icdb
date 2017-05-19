@@ -14891,6 +14891,10 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
 var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
@@ -14925,7 +14929,7 @@ var Toggler = function (_State) {
 	function Toggler(opt_config) {
 		_classCallCheck(this, Toggler);
 
-		var _this = _possibleConstructorReturn(this, _State.call(this, opt_config));
+		var _this = _possibleConstructorReturn(this, (Toggler.__proto__ || Object.getPrototypeOf(Toggler)).call(this, opt_config));
 
 		_this.headerEventHandler_ = new _metalEvents.EventHandler();
 
@@ -14939,96 +14943,135 @@ var Toggler = function (_State) {
   */
 
 
-	Toggler.prototype.disposeInternal = function disposeInternal() {
-		_State.prototype.disposeInternal.call(this);
-		this.headerEventHandler_.removeAllListeners();
-	};
+	_createClass(Toggler, [{
+		key: 'disposeInternal',
+		value: function disposeInternal() {
+			_get(Toggler.prototype.__proto__ || Object.getPrototypeOf(Toggler.prototype), 'disposeInternal', this).call(this);
+			this.headerEventHandler_.removeAllListeners();
+		}
 
-	/**
-  * Gets the content to be toggled by the given header element.
+		/**
+  * Manually collapse the content's visibility.
   * @param {!Element} header
-  * @protected
   */
 
+	}, {
+		key: 'collapse',
+		value: function collapse() {
+			var header = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.header;
 
-	Toggler.prototype.getContentElement_ = function getContentElement_(header) {
-		if (_metal2.default.isElement(this.content)) {
-			return this.content;
+			var content = this.getContentElement_(header);
+			_metalDom2.default.removeClasses(content, this.expandedClasses);
+			_metalDom2.default.addClasses(content, this.collapsedClasses);
+			_metalDom2.default.removeClasses(header, this.headerExpandedClasses);
+			_metalDom2.default.addClasses(header, this.headerCollapsedClasses);
 		}
 
-		var content = _metalDom2.default.next(header, this.content);
-		if (content) {
-			return content;
-		}
-
-		content = header.querySelector(this.content);
-		if (content) {
-			return content;
-		}
-
-		return this.container.querySelector(this.content);
-	};
-
-	/**
-  * Handles a `click` event on the header.
-  * @param {!Event} event
-  * @protected
+		/**
+  * Manually expand the content's visibility.
+  * @param {!Element} header
   */
 
+	}, {
+		key: 'expand',
+		value: function expand() {
+			var header = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.header;
 
-	Toggler.prototype.handleClick_ = function handleClick_(event) {
-		this.toggle(event.delegateTarget || event.currentTarget);
-	};
+			var content = this.getContentElement_(header);
+			_metalDom2.default.addClasses(content, this.expandedClasses);
+			_metalDom2.default.removeClasses(content, this.collapsedClasses);
+			_metalDom2.default.addClasses(header, this.headerExpandedClasses);
+			_metalDom2.default.removeClasses(header, this.headerCollapsedClasses);
+		}
 
-	/**
-  * Handles a `keydown` event on the header.
-  * @param {!Event} event
-  * @protected
-  */
+		/**
+   * Gets the content to be toggled by the given header element.
+   * @param {!Element} header
+   * @protected
+   */
 
+	}, {
+		key: 'getContentElement_',
+		value: function getContentElement_(header) {
+			if (_metal2.default.isElement(this.content)) {
+				return this.content;
+			}
 
-	Toggler.prototype.handleKeydown_ = function handleKeydown_(event) {
-		if (event.keyCode === 13 || event.keyCode === 32) {
+			var content = _metalDom2.default.next(header, this.content);
+			if (content) {
+				return content;
+			}
+
+			content = header.querySelector(this.content);
+			if (content) {
+				return content;
+			}
+
+			return this.container.querySelector(this.content);
+		}
+
+		/**
+   * Handles a `click` event on the header.
+   * @param {!Event} event
+   * @protected
+   */
+
+	}, {
+		key: 'handleClick_',
+		value: function handleClick_(event) {
 			this.toggle(event.delegateTarget || event.currentTarget);
-			event.preventDefault();
 		}
-	};
 
-	/**
-  * Syncs the component according to the value of the `header` state,
-  * attaching events to the new element and detaching from any previous one.
-  */
+		/**
+   * Handles a `keydown` event on the header.
+   * @param {!Event} event
+   * @protected
+   */
 
-
-	Toggler.prototype.syncHeader = function syncHeader() {
-		this.headerEventHandler_.removeAllListeners();
-		if (this.header) {
-			if (_metal2.default.isString(this.header)) {
-				this.headerEventHandler_.add(_metalDom2.default.delegate(this.container, 'click', this.header, this.handleClick_.bind(this)), _metalDom2.default.delegate(this.container, 'keydown', this.header, this.handleKeydown_.bind(this)));
-			} else {
-				this.headerEventHandler_.add(_metalDom2.default.on(this.header, 'click', this.handleClick_.bind(this)), _metalDom2.default.on(this.header, 'keydown', this.handleKeydown_.bind(this)));
+	}, {
+		key: 'handleKeydown_',
+		value: function handleKeydown_(event) {
+			if (event.keyCode === 13 || event.keyCode === 32) {
+				this.toggle(event.delegateTarget || event.currentTarget);
+				event.preventDefault();
 			}
 		}
-	};
 
-	/**
-  * Toggles the content's visibility.
-  */
+		/**
+   * Syncs the component according to the value of the `header` state,
+   * attaching events to the new element and detaching from any previous one.
+   */
 
-
-	Toggler.prototype.toggle = function toggle(header) {
-		var content = this.getContentElement_(header);
-		_metalDom2.default.toggleClasses(content, Toggler.CSS_EXPANDED);
-		_metalDom2.default.toggleClasses(content, Toggler.CSS_COLLAPSED);
-
-		if (_metalDom2.default.hasClass(content, Toggler.CSS_EXPANDED)) {
-			_metalDom2.default.addClasses(header, Toggler.CSS_HEADER_EXPANDED);
-			_metalDom2.default.removeClasses(header, Toggler.CSS_HEADER_COLLAPSED);
-		} else {
-			_metalDom2.default.removeClasses(header, Toggler.CSS_HEADER_EXPANDED);
-			_metalDom2.default.addClasses(header, Toggler.CSS_HEADER_COLLAPSED);
+	}, {
+		key: 'syncHeader',
+		value: function syncHeader() {
+			this.headerEventHandler_.removeAllListeners();
+			if (this.header) {
+				if (_metal2.default.isString(this.header)) {
+					this.headerEventHandler_.add(_metalDom2.default.delegate(this.container, 'click', this.header, this.handleClick_.bind(this)), _metalDom2.default.delegate(this.container, 'keydown', this.header, this.handleKeydown_.bind(this)));
+				} else {
+					this.headerEventHandler_.add(_metalDom2.default.on(this.header, 'click', this.handleClick_.bind(this)), _metalDom2.default.on(this.header, 'keydown', this.handleKeydown_.bind(this)));
+				}
+			}
 		}
-	};
+
+		/**
+   * Toggles the content's visibility.
+   * @param {!Element} header
+   */
+
+	}, {
+		key: 'toggle',
+		value: function toggle() {
+			var header = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.header;
+
+			if (_metalDom2.default.hasClass(header, this.headerExpandedClasses)) {
+				this.collapse(header);
+			} else {
+				this.expand(header);
+			}
+		}
+	}]);
 
 	return Toggler;
 }(_metalState2.default);
@@ -15039,6 +15082,14 @@ var Toggler = function (_State) {
 
 
 Toggler.STATE = {
+	/**
+  * The CSS classes added to the content when it's collapsed.
+  */
+	collapsedClasses: {
+		validator: _metal2.default.isString,
+		value: 'toggler-collapsed'
+	},
+
 	/**
   * The element where the header/content selectors will be looked for.
   * @type {string|!Element}
@@ -15062,6 +15113,14 @@ Toggler.STATE = {
 	},
 
 	/**
+  * The CSS classes added to the content when it's expanded.
+  */
+	expandedClasses: {
+		validator: _metal2.default.isString,
+		value: 'toggler-expanded'
+	},
+
+	/**
   * The element that should be trigger toggling.
   * @type {string|!Element}
   */
@@ -15069,28 +15128,24 @@ Toggler.STATE = {
 		validator: function validator(value) {
 			return _metal2.default.isString(value) || _metal2.default.isElement(value);
 		}
+	},
+
+	/**
+  * The CSS classes added to the header when the content is collapsed.
+  */
+	headerCollapsedClasses: {
+		validator: _metal2.default.isString,
+		value: 'toggler-header-collapsed'
+	},
+
+	/**
+  * The CSS classes added to the header when the content is expanded.
+  */
+	headerExpandedClasses: {
+		validator: _metal2.default.isString,
+		value: 'toggler-header-expanded'
 	}
 };
-
-/**
- * The CSS class added to the content when it's collapsed.
- */
-Toggler.CSS_COLLAPSED = 'toggler-collapsed';
-
-/**
- * The CSS class added to the content when it's expanded.
- */
-Toggler.CSS_EXPANDED = 'toggler-expanded';
-
-/**
- * The CSS class added to the header when the content is collapsed.
- */
-Toggler.CSS_HEADER_COLLAPSED = 'toggler-header-collapsed';
-
-/**
- * The CSS class added to the header when the content is expanded.
- */
-Toggler.CSS_HEADER_EXPANDED = 'toggler-header-expanded';
 
 exports.default = Toggler;
 
