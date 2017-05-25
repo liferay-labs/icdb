@@ -2,3 +2,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
+
+.conference-tag {
+  margin: 0 6px 6px 0; }
