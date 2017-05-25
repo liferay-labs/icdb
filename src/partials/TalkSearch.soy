@@ -1,0 +1,95 @@
+{namespace TalkSearch}
+
+/**
+ * @param? action
+ * @param? defaultContent
+ * @param? placeholder
+ * @param? query
+ * @param? results
+ */
+{template .render}
+	<div class="search">
+		{call .form data="all" /}
+		{call .results data="all" /}
+	</div>
+{/template}
+
+/**
+ * @param? action
+ * @param? placeholder
+ * @param? query
+ */
+{template .form}
+	<form class="docs-home-top-form" action="{$action}" method="GET" enctype="multipart/form-data">
+		<div class="row">
+			<div class="col-md-7 col-md-offset-3 col-xs-16">
+				<div class="form-group">
+					<div class="input-inner-addon input-inner-addon-right">
+						<input autocomplete="off" class="form-control" name="q" onInput="handleInput_" placeholder="{$placeholder}" value="{$query}" type="text">
+
+						<span class="input-inner-icon-helper icon-16-magnifier"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-xs-16">
+				<button class="btn btn-accent btn-block" type="submit">Search</button>
+			</div>
+		</div>
+	</form>
+{/template}
+
+/**
+ * @param? defaultContent
+ * @param? query
+ * @param? results
+ */
+{template .results}
+	<div class="search-result-container">
+		{if $query}
+			{call .searchResultSummary data="all" /}
+		{/if}
+		
+		{if $results and length($results)}
+			<div class="card-columns">
+				{foreach $result in $results}
+					<a href="{$result.url}">
+						<div class="card">
+							{if $result.video}
+								<img class="card-img-top img-fluid" src="http://i3.ytimg.com/vi/{$result.video}/maxresdefault.jpg" alt="{$result.title}">
+							{/if}
+
+							<div class="card-block">
+								<h4 class="card-title">{$result.title}</h4>
+								<p class="card-text">{$result.speaker}</p>
+								<p class="ellipsis"><small class="text-muted">{$result.description}</small></p>
+
+								<p class="card-text">
+									{foreach $tag in $result.tags}
+										<span class="label label-default label-sm conference-tag">{$tag}</span>
+									{/foreach}
+								</p>
+							</div>
+						</div>
+					</a>
+				{/foreach}
+			</div>
+		{elseif not $query}
+			{$defaultContent}
+		{/if}
+	</div>
+{/template}
+
+/**
+ * @param query
+ * @param results
+ */
+{template .searchResultSummary}
+	<p class="search-result-summary">
+		{if length($results)}
+			Showing {length($results)} results for <strong>"{$query}"</strong>
+		{else}
+			No results found for <strong>"{$query}"</strong>
+		{/if}
+	</p>
+{/template}
