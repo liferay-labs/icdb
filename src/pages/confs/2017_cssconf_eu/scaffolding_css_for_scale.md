@@ -5,7 +5,7 @@ description: "Ever thought about localising your site, but realised it led to a 
 In this talk, you'll learn how to get started with your own lightweight, localised CSS setup. We'll go through how we use Grandstand, a CSS framework built by BBC Sport, as the scaffolding for our CSS. Starting with bare bones of just ~10kb, it has the flexibility to allow layouts in 10 scripts for 20+ languages, and we’re using it across the BBC News & Sport sites."
 speaker: Sareh Heidari
 twitter: sareh88
-videoid:
+video: pRos7NvtwFU
 tags: [css, frameworks]
 layout: "talk"
 weight: 2

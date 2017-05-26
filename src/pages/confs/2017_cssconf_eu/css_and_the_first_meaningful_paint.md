@@ -7,7 +7,7 @@ How can we utilize modern web platform features to load our CSS as fast as possi
 In this talk we will take a journey exploring the current, past, and future best-practices for loading CSS in the browser and how we can achieve a first meaningful paint within 1000ms. Ultimately creating a faster, more resilient experience for our users."
 speaker: Patrick Hamann
 twitter: patrickhamann
-video:
+video: 4pQ2byAoIX0
 tags: [css, performance]
 layout: "talk"
 weight: 2
