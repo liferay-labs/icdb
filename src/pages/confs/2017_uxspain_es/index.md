@@ -14,7 +14,7 @@ weight: 1
 
 ##### UX team summary
 
-<iframe src="https://docs.google.com/presentation/d/1Efgj-WxBic31AHB47NTaxVjQg1or-V-6eecrmuAX1W0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1wGBSq-3f_qSU-4F6qVKsvyBHrmyuvsdnUbTsI7E_6O0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 </article>
 
