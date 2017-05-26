@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([56],[
+webpackJsonppageComponent([61],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2302,51 +2302,51 @@ function $results(opt_data, opt_ignored, opt_ijData) {
     if (opt_data.results && opt_data.results.length) {
       ie_open('div', null, null,
           'class', 'card-columns');
-        var resultList145 = opt_data.results;
-        var resultListLen145 = resultList145.length;
-        for (var resultIndex145 = 0; resultIndex145 < resultListLen145; resultIndex145++) {
-          var resultData145 = resultList145[resultIndex145];
+        var resultList167 = opt_data.results;
+        var resultListLen167 = resultList167.length;
+        for (var resultIndex167 = 0; resultIndex167 < resultListLen167; resultIndex167++) {
+          var resultData167 = resultList167[resultIndex167];
           ie_open('a', null, null,
-              'href', resultData145.url);
+              'href', resultData167.url);
             ie_open('div', null, null,
                 'class', 'card');
-              if (resultData145.video) {
+              if (resultData167.video) {
                 ie_open('img', null, null,
                     'class', 'card-img-top img-fluid',
-                    'src', 'http://i3.ytimg.com/vi/' + resultData145.video + '/maxresdefault.jpg',
-                    'alt', resultData145.title);
+                    'src', 'http://i3.ytimg.com/vi/' + resultData167.video + '/maxresdefault.jpg',
+                    'alt', resultData167.title);
                 ie_close('img');
               }
               ie_open('div', null, null,
                   'class', 'card-block');
                 ie_open('h4', null, null,
                     'class', 'card-title');
-                  var dyn9 = resultData145.title;
-                  if (typeof dyn9 == 'function') dyn9(); else if (dyn9 != null) itext(dyn9);
+                  var dyn11 = resultData167.title;
+                  if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
                 ie_close('h4');
                 ie_open('p', null, null,
                     'class', 'card-text');
-                  var dyn10 = resultData145.speaker;
-                  if (typeof dyn10 == 'function') dyn10(); else if (dyn10 != null) itext(dyn10);
+                  var dyn12 = resultData167.speaker;
+                  if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
                 ie_close('p');
                 ie_open('p', null, null,
                     'class', 'ellipsis');
                   ie_open('small', null, null,
                       'class', 'text-muted');
-                    var dyn11 = resultData145.description;
-                    if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+                    var dyn13 = resultData167.description;
+                    if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
                   ie_close('small');
                 ie_close('p');
                 ie_open('p', null, null,
                     'class', 'card-text');
-                  var tagList142 = resultData145.tags;
-                  var tagListLen142 = tagList142.length;
-                  for (var tagIndex142 = 0; tagIndex142 < tagListLen142; tagIndex142++) {
-                    var tagData142 = tagList142[tagIndex142];
+                  var tagList164 = resultData167.tags;
+                  var tagListLen164 = tagList164.length;
+                  for (var tagIndex164 = 0; tagIndex164 < tagListLen164; tagIndex164++) {
+                    var tagData164 = tagList164[tagIndex164];
                     ie_open('span', null, null,
                         'class', 'label label-default label-sm conference-tag');
-                      var dyn12 = tagData142;
-                      if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
+                      var dyn14 = tagData164;
+                      if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
                     ie_close('span');
                   }
                 ie_close('p');
@@ -2356,8 +2356,8 @@ function $results(opt_data, opt_ignored, opt_ijData) {
         }
       ie_close('div');
     } else if (! opt_data.query) {
-      var dyn13 = opt_data.defaultContent;
-      if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+      var dyn15 = opt_data.defaultContent;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     }
   ie_close('div');
 }
@@ -2379,21 +2379,21 @@ function $searchResultSummary(opt_data, opt_ignored, opt_ijData) {
       'class', 'search-result-summary');
     if (opt_data.results.length) {
       itext('Showing ');
-      var dyn14 = opt_data.results.length;
-      if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
+      var dyn16 = opt_data.results.length;
+      if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
       itext(' results for ');
       ie_open('strong');
         itext('"');
-        var dyn15 = opt_data.query;
-        if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
+        var dyn17 = opt_data.query;
+        if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
         itext('"');
       ie_close('strong');
     } else {
       itext('No results found for ');
       ie_open('strong');
         itext('"');
-        var dyn16 = opt_data.query;
-        if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
+        var dyn18 = opt_data.query;
+        if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
         itext('"');
       ie_close('strong');
     }
